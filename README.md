@@ -36,8 +36,7 @@
 		  --mac MAC   MAC address or OUI to search for
 
 ### About...
-This Python script retrieves information from basic vendor lookup or a more comprhensive profile related to a MAC address, used to identify which device is which on your local network 
-so that data gets sent to your computer and not your roommate's smartphone.  MAC addresses are always a 12 digit hexadecimal number, 
+This Python script retrieves information from basic vendor lookup to a comprehensive profile related to a MAC address, used to identify which device is which on your local network. MAC addresses are always a 12 digit hexadecimal number, 
 with the numbers separated every two digits by a colon or hyphen.  
 The script takes a MAC address as an argument and retrieves the API key from a config.json 
 file located in the same directory as the script.
