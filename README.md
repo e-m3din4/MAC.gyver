@@ -50,7 +50,7 @@ pip3 install requests
 To run the script, open a terminal in the directory containing the script and the config.json file, and run the following command:
 
 
-python3 MACgyver.py --mac [OUI]
+python3 MACgyver.py --mac [MAC]
 
 
 The script will send a request to the macaddress.io API and print the response.
