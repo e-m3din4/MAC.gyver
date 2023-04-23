@@ -1,5 +1,5 @@
 # MAC.gyver
-### Retrieve MAC address manufacturer info or a full profile in json format.
+### Retrieve MAC address vendor info or a full profile in json format.
 
             ---------------------------------------------- 
 		▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 
