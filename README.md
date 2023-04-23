@@ -36,10 +36,8 @@
 		  --mac MAC   MAC address or OUI to search for
 
 ### About...
-This Python script retrieves information from basic vendor lookup to a comprehensive profile related to a MAC address, used to identify which device is which on your local network. MAC addresses are always a 12 digit hexadecimal number, 
-with the numbers separated every two digits by a colon or hyphen.  
-The script takes a MAC address as an argument and retrieves the API key from a config.json 
-file located in the same directory as the script.
+This Python script retrieves information from basic vendor lookup to a comprehensive profile related to a MAC address including OUI, companyName, companyAddress, countryCode, blockDetails, blockSize, validation, virtualMachine detection, Spoofing detection, Transmission type and Wireshark notes. Mac Address is used to identify which device is which on your local network. MAC addresses are always a 12 digit hexadecimal number, 
+with the numbers separated every two digits by a colon or hyphen. The script takes a MAC address as an argument and retrieves the API key from a config.json file located in the same directory as the script.
 
 ### Requirements
 
@@ -68,7 +66,7 @@ The config.json file should contain your macaddress.io API key in the following 
     "api_key": "your_api_key_here"
 }
 
-Replace your_api_key_here with your actual Documentos-RapidAPI key.
+Replace your_api_key_here with your macaddress.io API key.
 
 ### License
 
